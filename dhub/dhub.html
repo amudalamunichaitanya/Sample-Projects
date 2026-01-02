@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events Near You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">D<span>hub</span></div>
+    <nav>
+      <a href="#">Services</a>
+      <a href="#">Events</a>
+      <a href="#">Deals</a>
+    </nav>
+    <div class="auth">
+      <button class="btn">Log In</button>
+      <button class="btn primary">Sign Up</button>
+      <div class="user-icon">👤</div>
+    </div>
+  </header>
+
+  <!-- Search Section -->
+  <section class="search-bar">
+    <button class="back-btn">← Back to Home</button>
+    <input type="text" placeholder="Search events...">
+    <input type="text" placeholder="Choose a location">
+    <select>
+      <option>All Categories</option>
+    </select>
+    <button class="search-btn">🔍</button>
+  </section>
+
+  <!-- Main Content -->
+  <main class="events-container">
+    <!-- Left Sidebar -->
+    <aside class="filters">
+      <h2>Events Near You</h2>
+      <div class="filter-buttons">
+        <button class="active">This Month</button>
+        <button>This Week</button>
+        <button>Select Date ⌄</button>
+      </div>
+      <div class="filter-buttons">
+        <button>Paid Event</button>
+        <button>Free Event</button>
+        <button>Sort by ⌄</button>
+      </div>
+
+      <div class="event-list">
+        <div class="event-card">
+          <img src="https://picsum.photos/300/200?random=1" alt="">
+          <div class="event-info">
+            <h3>Hamilton</h3>
+            <p>Richard Rodgers Theatre<br>New York, NY<br>Today at 7:00 PM</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <img src="https://picsum.photos/300/200?random=2" alt="">
+          <div class="event-info">
+            <h3>Hamilton</h3>
+            <p>Richard Rodgers Theatre<br>New York, NY<br>Today at 2:00 PM</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <img src="https://picsum.photos/300/200?random=3" alt="">
+          <div class="event-info">
+            <h3>Hamilton</h3>
+            <p>Richard Rodgers Theatre<br>New York, NY<br>Today at 7:00 PM</p>
+          </div>
+        </div>
+        <div class="event-card">
+          <img src="https://picsum.photos/300/200?random=4" alt="">
+          <div class="event-info">
+            <h3>Hamilton</h3>
+            <p>Richard Rodgers Theatre<br>New York, NY<br>Today at 7:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right Side -->
+    <section class="event-details">
+      <img src="https://picsum.photos/800/400" alt="Cultural Festival">
+      <h2>Cultural Festival 2025</h2>
+      <p class="meta">📅 Sun, Oct 1, 2025  •  ⏰ 7:00 PM  • 📍 Cooper Square, New York</p>
+      <h3>Event Details</h3>
+      <p>Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development...</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
